@@ -10,3 +10,7 @@ services:
   project: frontend/frontend.csproj
 - name: backend
   project: backend/backend.csproj
+
+extensions:
+  - name: seq
+    logPath: ./.logs
